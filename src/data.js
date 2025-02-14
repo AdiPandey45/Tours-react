@@ -1,4 +1,4 @@
-const data = [ 
+const data = [
 	{
 		id: 1,
 		name: "Agra",
@@ -46,7 +46,7 @@ const data = [
 		name: "Kochi",
 		info: "Kochi is a port city in the Indian state of Kerala, known for its historic connections to trade and commerce. The city is home to several stunning churches, synagogues, and mosques, as well as a rich culinary tradition that blends Indian, Portuguese, and other influences.",
 		image: "https://cdn.thecodehelp.in/Kochi.jpeg",
-		price: "68,595",
+		price: "68,597",
 	},
 ];
 
