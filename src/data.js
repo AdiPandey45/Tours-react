@@ -7,7 +7,7 @@ const data = [
 		price: "35,758",
 	},
 	{
-		id: 2,
+		id: 2, 
 		name: "Jaipur",
 		info: `Jaipur is the capital city of the Indian state of Rajasthan, known for its stunning pink-hued buildings and palaces. The city is also known as the "Pink City" due to the color of many of its buildings. Jaipur is famous for its intricate textiles, colorful handicrafts, and delicious cuisine.`,
 		image: "https://cdn.thecodehelp.in/Jaipur.jpeg",
