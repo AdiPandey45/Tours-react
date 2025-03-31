@@ -9,9 +9,9 @@ return (
 
 <div className='cards'>
 { 
-    return
+ 
       tours.map((tour)=>{
-     return <Card {...tour} removeTours={removeTour}/>
+     return <Card {...tour} removeTour={removeTour}/>
 }
 
     }
