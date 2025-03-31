@@ -7,10 +7,13 @@ const Tours = ({ tours, removeTour }) => {
         <h1>Plan with Adi</h1>
       </div>
 
-      <div className='cards'>
-        {tours.map((tour) => {
-          return <Card {...tour} removeTour={removeTour} />
-        })}
+    <div className='cards'>
+{ 
+      tours.map((tour) => {
+        return <Card {...tour} removeTour={removeTour} />;
+      })  
+}
+</div>
       </div>
     </div>
   );
