@@ -9,7 +9,7 @@ const Tours = ({ tours, removeTour }) => {
 
       <div className='cards'>
         {tours.map((tour) => {
-          return <Card {...tour} removeTour={removeTour} />; // ✅ Corrected
+          return <Card {...tour} removeTour={removeTour} />
         })}
       </div>
     </div>
