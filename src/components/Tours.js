@@ -8,9 +8,10 @@ const Tours = ({ tours, removeTour }) => {
       </div>
 
       <div className='cards'>
-        {tours.map((tour) => (
-          <Card key={tour.id} {...tour} removeTour={removeTour} />
-        ))}
+        {
+          tours.map((tour) => {
+          return <Card key={tour.id} {...tour} removeTour={removeTour} />
+  })}
       </div>
     </div>
   );
