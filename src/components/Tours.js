@@ -12,7 +12,6 @@ const Tours = ({ tours, removeTour }) => {
           <Card {...tour} removeTour={removeTour} />
         ))}
       </div>
-
     </div>
   );
 };
