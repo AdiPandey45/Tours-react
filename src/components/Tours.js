@@ -1,25 +1,19 @@
-import Card from './Card'
+import Card from './Card';
 
-const Tours=({tours,removeTour})=>{
-return (
+const Tours = ({ tours, removeTour }) => {
+  return (
     <div className='container'>
-<div className='title'>
-<h1>Plan with Adi</h1>
-</div>
+      <div className='title'>
+        <h1>Plan with Adi</h1>
+      </div>
 
-<div className='cards'>
-{ 
- 
-      tours.map((tour)=>{
-     return <Card {...tour} removeTour={removeTour}/>
-}
-)
-    }
-</div>
-
-   
+      <div className='cards'>
+        {tours.map((tour) => {
+          return <Card {...tour} removeTour={removeTour} />; // ✅ Corrected
+        })}
+      </div>
     </div>
-);
-}
+  );
+};
 
 export default Tours;
