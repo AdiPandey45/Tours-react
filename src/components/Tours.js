@@ -13,7 +13,7 @@ return (
       tours.map((tour)=>{
      return <Card {...tour} removeTour={removeTour}/>
 }
-
+)
     }
 </div>
 
