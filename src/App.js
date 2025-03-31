@@ -10,10 +10,12 @@ function App() {
 
   const[tours,setTours]=useState(data);
 
-  const removeTours= (id)=>{
-    const newTours=tours.filter(tour=>tour.id != id);
-    setTours(newTours);
-  }
+ const removeTours= (id)=>{
+   const newTours=tours.filter(tour=>tour.id!=id);
+   setTours(newTours);
+ }
+
+  
 if(tours.length==0){
   return (
     <div className='refresh'>
